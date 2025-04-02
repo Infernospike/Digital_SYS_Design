@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 17 14:02:27 2024
+# Process ID: 15832
+# Current directory: C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25140 C:\Users\coope\Documents\MSU-ECE-DSD\lab7\lab7_part2\lab7_part2.xpr
+# Log file: C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2/vivado.log
+# Journal file: C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2\vivado.jou
+# Running On: LAPTOP-RCMTCCBQ, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17085 MB
+#-----------------------------------------------------------
+start_guiopen_project C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2/lab7_part2.xpr
+update_compile_order -fileset sources_1
+

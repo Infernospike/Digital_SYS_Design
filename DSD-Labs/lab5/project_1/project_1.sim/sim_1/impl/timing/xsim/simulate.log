@@ -1,0 +1,47 @@
+Time resolution is 1 ps
+WARNING: file ../../../../multadd_vectors.txt could not be opened
+
+Time: 300 ns Started: 0 fs Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+FAIL               300000: x1: 3b9, x2: 0ff, x3: 3a5, y actual: 000, y expected: 0f0
+
+Time: 350 ns Started: 150 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               350000: x1: 3a9, x2: 3b8, x3: 31a, y: 080 071
+
+Time: 400 ns Started: 200 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               400000: x1: 376, x2: 031, x3: 024, y: 3b4 051
+
+Time: 450 ns Started: 250 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               450000: x1: 3b5, x2: 301, x3: 3f5, y: 2d5 38b
+
+Time: 500 ns Started: 300 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               500000: x1: 34c, x2: 359, x3: 05a, y: 03f 3c4
+
+Time: 550 ns Started: 350 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               550000: x1: 37f, x2: 038, x3: 015, y: 0f0 059
+
+Time: 600 ns Started: 400 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               600000: x1: 0a9, x2: 05c, x3: 35d, y: 071 036
+
+Time: 650 ns Started: 450 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               650000: x1: 393, x2: 096, x3: 341, y: 051 0f3
+
+Time: 700 ns Started: 500 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               700000: x1: 3bd, x2: 3f0, x3: 061, y: 38b 3e7
+
+Time: 750 ns Started: 550 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               750000: x1: 011, x2: 32d, x3: 0e5, y: 3c4 301
+
+Time: 800 ns Started: 600 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               800000: x1: 373, x2: 310, x3: 3d1, y: 059 3c8
+
+Time: 850 ns Started: 650 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               850000: x1: 066, x2: 0a6, x3: 3cf, y: 036 04d
+
+Time: 900 ns Started: 700 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               900000: x1: 3b2, x2: 0f9, x3: 30d, y: 0f3 13c
+
+Time: 950 ns Started: 750 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS               950000: x1: 314, x2: 08e, x3: 31a, y: 3e7 141
+
+Time: 1 us Started: 800 ns Scope: /tb_lab5dpath File: C:/Users/coope/Documents/MSU-ECE-DSD/lab5/tb_lab5dpath.sv Line:45
+PASS              1000000: x1: 3ae, x2: 0fd, x3: 349, y: 301 122

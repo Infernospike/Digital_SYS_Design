@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/coope/Documents/MSU-ECE-DSD/lab6/lab6_files_part1/lab6dpath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab6dpath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/coope/Documents/MSU-ECE-DSD/lab6/lab6_files_part1/tb_lab6dpath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lab6dpath

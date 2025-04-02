@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/coope/Documents/MSU-ECE-DSD/lab2/max3sint16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module max3sint16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/coope/Documents/MSU-ECE-DSD/lab2/tb_max3sint16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_max3sint16b

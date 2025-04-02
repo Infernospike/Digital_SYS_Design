@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+          1(              600000): PASS, a:         128, b:         256, c:         960, dout:  128
+
+          1(              700000): PASS, a:         128, b:         256, c:         960, dout:  128
+
+          1(              800000): PASS, a:         128, b:         256, c:         960, dout:  128
+

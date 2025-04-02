@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jan 31 20:21:04 2024
+# Process ID: 25364
+# Current directory: C:/Users/coope/Documents/MSU-ECE-DSD/lab2/Lab2.runs/impl_1
+# Command line: vivado.exe -log max3sint16b.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source max3sint16b.tcl -notrace
+# Log file: C:/Users/coope/Documents/MSU-ECE-DSD/lab2/Lab2.runs/impl_1/max3sint16b.vdi
+# Journal file: C:/Users/coope/Documents/MSU-ECE-DSD/lab2/Lab2.runs/impl_1\vivado.jou
+# Running On: LAPTOP-RCMTCCBQ, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17085 MB
+#-----------------------------------------------------------
+source max3sint16b.tcl -notrace

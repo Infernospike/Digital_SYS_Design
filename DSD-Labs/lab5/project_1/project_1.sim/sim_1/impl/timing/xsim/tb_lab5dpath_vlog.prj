@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_lab5dpath_time_impl.v" \
+
+sv xil_defaultlib  \
+"../../../../../../tb_lab5dpath.sv" \
+
+# Do not sort compile order
+nosort

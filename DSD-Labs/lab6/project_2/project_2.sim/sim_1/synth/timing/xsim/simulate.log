@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+WARNING: file ../../../../multadd_vectors.txt could not be opened
+          1(              600000): FAIL, a:         128, b:         256, c:         960, y (actual):  448, dout (expected):         128
+
+          1(              700000): FAIL, a:         128, b:         256, c:         960, y (actual):  448, dout (expected):         128
+
+          1(              800000): FAIL, a:         128, b:         256, c:         960, y (actual):  448, dout (expected):         128
+

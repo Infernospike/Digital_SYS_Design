@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_lab4dpath_time_impl.v" \
+
+sv xil_defaultlib  \
+"../../../../../../tb_lab4dpath.sv" \
+
+# Do not sort compile order
+nosort

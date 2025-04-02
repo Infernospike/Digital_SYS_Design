@@ -1,0 +1,179 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Tue Apr 16 19:33:01 2024
+| Host         : LAPTOP-RCMTCCBQ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file timer32bus_control_sets_placed.rpt
+| Design       : timer32bus
+| Device       : xc7a12ti
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   101 |
+|    Minimum number of control sets                        |   101 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   626 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   101 |
+| >= 0 to < 4        |    98 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             132 |           69 |
+| No           | Yes                   | No                     |              32 |           32 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              66 |           26 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------+------------------+------------------+----------------+--------------+
+|  Clock Signal  |      Enable Signal     | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+------------------------+------------------+------------------+----------------+--------------+
+|  T1/din[0]     |                        | T1/reset_30      |                1 |              1 |         1.00 |
+|  T1/din[11]    |                        | T1/reset_19      |                1 |              1 |         1.00 |
+|  T1/din[10]    |                        | T1/reset_20      |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | T2/timer_en_i_1_n_0    | T2/addr[0]       |                1 |              1 |         1.00 |
+|  T1/din[20]    |                        | T1/reset_10      |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | T1/tmr_flag1           | T2/addr[0]       |                1 |              1 |         1.00 |
+|  T1/din[7]     |                        | T1/reset_23      |                1 |              1 |         1.00 |
+|  T1/din[29]    |                        | T1/reset_1       |                1 |              1 |         1.00 |
+|  T1/din[19]    |                        | T1/reset_11      |                1 |              1 |         1.00 |
+|  T1/din[12]    |                        | T1/reset_18      |                1 |              1 |         1.00 |
+|  T1/din[31]    |                        | T1/reset         |                1 |              1 |         1.00 |
+|  T1/din[1]     |                        | T1/reset_29      |                1 |              1 |         1.00 |
+|  T1/din[28]    |                        | T1/reset_2       |                1 |              1 |         1.00 |
+|  T1/din[3]     |                        | T1/reset_27      |                1 |              1 |         1.00 |
+|  T1/din[5]     |                        | T1/reset_25      |                1 |              1 |         1.00 |
+|  T1/din[23]    |                        | T1/reset_7       |                1 |              1 |         1.00 |
+|  T1/din[2]     |                        | T1/reset_28      |                1 |              1 |         1.00 |
+|  T1/din[30]    |                        | T1/reset_0       |                1 |              1 |         1.00 |
+|  T1/din[24]    |                        | T1/reset_6       |                1 |              1 |         1.00 |
+|  T1/din[9]     |                        | T1/reset_21      |                1 |              1 |         1.00 |
+|  T1/din[14]    |                        | T1/reset_16      |                1 |              1 |         1.00 |
+|  T1/din[16]    |                        | T1/reset_14      |                1 |              1 |         1.00 |
+|  T1/din[4]     |                        | T1/reset_26      |                1 |              1 |         1.00 |
+|  T1/din[15]    |                        | T1/reset_15      |                1 |              1 |         1.00 |
+|  T1/din[21]    |                        | T1/reset_9       |                1 |              1 |         1.00 |
+|  T1/din[27]    |                        | T1/reset_3       |                1 |              1 |         1.00 |
+|  T1/din[13]    |                        | T1/reset_17      |                1 |              1 |         1.00 |
+|  T1/din[18]    |                        | T1/reset_12      |                1 |              1 |         1.00 |
+|  T1/din[17]    |                        | T1/reset_13      |                1 |              1 |         1.00 |
+|  T1/din[6]     |                        | T1/reset_24      |                1 |              1 |         1.00 |
+|  T1/din[22]    |                        | T1/reset_8       |                1 |              1 |         1.00 |
+|  T1/din[25]    |                        | T1/reset_5       |                1 |              1 |         1.00 |
+|  T1/din[8]     |                        | T1/reset_22      |                1 |              1 |         1.00 |
+|  T1/din[26]    |                        | T1/reset_4       |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG |                        | T1/din[8]        |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[26]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_22      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_17      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_20      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_5       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_1       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_14      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_21      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_30      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_2       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_6       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_25      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_3       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_4       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_27      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[1]        |                2 |              2 |         1.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_10      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_8       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_9       |                2 |              2 |         1.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_13      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_16      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_12      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_7       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_18      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_15      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_26      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_0       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset         |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_11      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_24      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_19      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_29      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_28      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[0]        |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[11]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[10]       |                2 |              2 |         1.00 |
+|  clk_IBUF_BUFG |                        | T1/din[7]        |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[29]       |                2 |              2 |         1.00 |
+|  clk_IBUF_BUFG |                        | T1/din[19]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[12]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[31]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[28]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[3]        |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[5]        |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[23]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[2]        |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[30]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[24]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[9]        |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[14]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/reset_23      |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[16]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[20]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[4]        |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[15]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[21]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[27]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[13]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[18]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[17]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[6]        |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[22]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T1/din[25]       |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG |                        | T2/addr[0]       |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | T1/PR_dout0            | T2/reset         |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG | T2/PR_dout[31]_i_1_n_0 | T2/reset         |               12 |             32 |         2.67 |
++----------------+------------------------+------------------+------------------+----------------+--------------+
+
+

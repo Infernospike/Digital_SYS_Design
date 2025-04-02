@@ -1,0 +1,14 @@
+reset  contestant_buttons  contestant_lights  timer_start  timeout  Repeat  Notes
+    1                0000               xxxx            0        x       1  Initial reset.
+    0                0000               0000            0        0       1  Waiting for the timer to start.
+    0                0000               0000            1        0       1  Timer started.
+    0                0000               0000            0        0      20  Waiting for contestant.
+    0                0100               0100            0        0      10  Contestant answers.
+    0                1010               0100            0        0       1  More contestants answer.
+    0                0000               0100            0        0    5000  No timeout.
+    1                0000               xxxx            0        x       1  Reset.
+    0                0000               0000            0        0     100  Waiting for the timer to start.
+    0                0000               0000            1        0       1  Timer started.
+    0                0000               0000            0        0    4999  Waiting for contestant.
+    0                0000               0000            0        1       1  Timeout.
+    0                1111               0000            0        1       1  Contestant buttons ignored.

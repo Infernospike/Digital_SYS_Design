@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2/lab7_part2.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2/lab7_part2.srcs/sim_1/imports/lab7_p2_files/tb_timer32bus.sv,1712757581,systemVerilog,,,,tb_timer32bus,,uvm,,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2/lab7_part2.srcs/sources_1/imports/lab7_p1_files/timer32.sv,1713313618,systemVerilog,,C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2/lab7_part2.srcs/sources_1/new/timer32bus.sv,,timer32,,uvm,,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2/lab7_part2.srcs/sources_1/new/timer32bus.sv,1712851764,systemVerilog,,C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2/lab7_part2.srcs/sim_1/imports/lab7_p2_files/tb_timer32bus.sv,,timer32bus,,uvm,,,,,,

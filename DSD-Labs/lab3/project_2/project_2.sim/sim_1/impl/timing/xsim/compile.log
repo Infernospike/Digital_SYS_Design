@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/coope/Documents/MSU-ECE-DSD/lab3/project_2/project_2.sim/sim_1/impl/timing/xsim/tb_satadd_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_addsub
+INFO: [VRFC 10-311] analyzing module satadd
+INFO: [VRFC 10-311] analyzing module ip_addsub_c_addsub_v12_0_16
+INFO: [VRFC 10-311] analyzing module ip_addsub_c_addsub_v12_0_16_fabric_legacy
+INFO: [VRFC 10-311] analyzing module ip_addsub_c_addsub_v12_0_16_legacy
+INFO: [VRFC 10-311] analyzing module ip_addsub_c_addsub_v12_0_16_lut6_legacy
+INFO: [VRFC 10-311] analyzing module ip_addsub_c_addsub_v12_0_16_viv
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,6 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/coope/Documents/MSU-ECE-DSD/lab8/project_1/project_1.sim/sim_1/impl/timing/xsim/tb_fifo_time_impl.v,1713405531,verilog,,C:/Users/coope/Documents/MSU-ECE-DSD/lab8/project_1/project_1.srcs/sim_1/imports/lab8/tb_fifo.v,,blk_mem_gen_0;blk_mem_gen_0_blk_mem_gen_generic_cstr;blk_mem_gen_0_blk_mem_gen_prim_width;blk_mem_gen_0_blk_mem_gen_prim_wrapper;blk_mem_gen_0_blk_mem_gen_top;blk_mem_gen_0_blk_mem_gen_v8_4_7;blk_mem_gen_0_blk_mem_gen_v8_4_7_synth;fifo;glbl,,,,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab8/project_1/project_1.srcs/sim_1/imports/lab8/tb_fifo.v,1713403230,verilog,,,,tb_fifo,,,,,,,,

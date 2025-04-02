@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_lab6dpath_func_impl.v" \
+
+sv xil_defaultlib  \
+"../../../../../../lab6_files_part1/tb_lab6dpath.sv" \
+
+# Do not sort compile order
+nosort

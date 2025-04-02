@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/coope/Documents/MSU-ECE-DSD/lab6/Lab6_part2/Lab6_part2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1711584517,verilog,,,,clk_wiz_0,,uvm,../../../../Lab6_part2.ip_user_files/ipstatic,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab6/Lab6_part2/Lab6_part2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1711584517,verilog,,C:/Users/coope/Documents/MSU-ECE-DSD/lab6/Lab6_part2/Lab6_part2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,uvm,../../../../Lab6_part2.ip_user_files/ipstatic,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab6/Lab6_part2/Lab6_part2.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd,1711584418,vhdl,,,,mult_gen_0,,,,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab6/Lab6_part2/Lab6_part2.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab6/Lab6_part2/Lab6_part2.srcs/sim_1/imports/lab6_files_part2/tb_hw_testbench.sv,1709153251,systemVerilog,,,,tb_hw_testbench,,uvm,../../../../Lab6_part2.ip_user_files/ipstatic,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab6/Lab6_part2/Lab6_part2.srcs/sources_1/imports/lab6_files_part1/lab6dpath.sv,1710943736,systemVerilog,,C:/Users/coope/Documents/MSU-ECE-DSD/lab6/lab6_files_part2/lfsr.sv,,lab6dpath,,uvm,../../../../Lab6_part2.ip_user_files/ipstatic,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab6/lab6_files_part2/hw_testbench.sv,1711584763,systemVerilog,,C:/Users/coope/Documents/MSU-ECE-DSD/lab6/Lab6_part2/Lab6_part2.srcs/sources_1/imports/lab6_files_part1/lab6dpath.sv,,hw_testbench,,uvm,../../../../Lab6_part2.ip_user_files/ipstatic,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab6/lab6_files_part2/lfsr.sv,1709153251,systemVerilog,,C:/Users/coope/Documents/MSU-ECE-DSD/lab6/lab6_files_part2/pulsegenms.sv,,lfsr,,uvm,../../../../Lab6_part2.ip_user_files/ipstatic,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab6/lab6_files_part2/pulsegenms.sv,1709153251,systemVerilog,,C:/Users/coope/Documents/MSU-ECE-DSD/lab6/lab6_files_part2/sevenseg.sv,,pulsegenMS,,uvm,../../../../Lab6_part2.ip_user_files/ipstatic,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab6/lab6_files_part2/sevenseg.sv,1709153251,systemVerilog,,C:/Users/coope/Documents/MSU-ECE-DSD/lab6/Lab6_part2/Lab6_part2.srcs/sim_1/imports/lab6_files_part2/tb_hw_testbench.sv,,sevenseg,,uvm,../../../../Lab6_part2.ip_user_files/ipstatic,,,,,

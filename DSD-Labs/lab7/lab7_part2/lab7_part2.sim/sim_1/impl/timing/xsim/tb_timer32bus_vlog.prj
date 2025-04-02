@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_timer32bus_time_impl.v" \
+
+sv xil_defaultlib  \
+"../../../../../lab7_part2.srcs/sim_1/imports/lab7_p2_files/tb_timer32bus.sv" \
+
+# Do not sort compile order
+nosort

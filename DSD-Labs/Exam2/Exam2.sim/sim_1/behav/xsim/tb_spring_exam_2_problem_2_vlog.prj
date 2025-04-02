@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Exam2.srcs/sources_1/imports/digital-system-design-A421/spring_exam_2_problem_2.sv" \
+"../../../../Exam2.srcs/sim_1/imports/digital-system-design-A421/spring_exam_2_problem_2-test.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

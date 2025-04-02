@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/coope/Documents/MSU-ECE-DSD/lab3/project_2/project_2.gen/sources_1/ip/ip_addsub/sim/ip_addsub.vhd,1707357126,vhdl,,,,ip_addsub,,,,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab3/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab3/project_2/project_2.srcs/sources_1/imports/lab3/satadd.sv,1707357462,systemVerilog,,C:/Users/coope/Documents/MSU-ECE-DSD/lab3/tb_satadd.sv,,satadd,,uvm,,,,,,
+C:/Users/coope/Documents/MSU-ECE-DSD/lab3/tb_satadd.sv,1707320886,systemVerilog,,,,tb_satadd,,uvm,,,,,,

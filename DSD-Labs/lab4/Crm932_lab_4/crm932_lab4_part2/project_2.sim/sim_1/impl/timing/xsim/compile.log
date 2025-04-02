@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/coope/Documents/MSU-ECE-DSD/lab4/project_2/project_2.sim/sim_1/impl/timing/xsim/tb_lab4dpath_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab4dpath
+INFO: [VRFC 10-311] analyzing module mult_gen_0
+INFO: [VRFC 10-311] analyzing module mult_gen_0_HD3
+INFO: [VRFC 10-311] analyzing module mult_gen_0_HD7
+INFO: [VRFC 10-311] analyzing module mult_gen_0_mult_gen_v12_0_19
+INFO: [VRFC 10-311] analyzing module mult_gen_0_mult_gen_v12_0_19_HD4
+INFO: [VRFC 10-311] analyzing module mult_gen_0_mult_gen_v12_0_19_HD8
+INFO: [VRFC 10-311] analyzing module mult_gen_0_dsp
+INFO: [VRFC 10-311] analyzing module mult_gen_0_dsp_HD10
+INFO: [VRFC 10-311] analyzing module mult_gen_0_dsp_HD6
+INFO: [VRFC 10-311] analyzing module mult_gen_0_mult_gen_v12_0_19_viv
+INFO: [VRFC 10-311] analyzing module mult_gen_0_mult_gen_v12_0_19_viv_HD5
+INFO: [VRFC 10-311] analyzing module mult_gen_0_mult_gen_v12_0_19_viv_HD9
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/coope/Documents/MSU-ECE-DSD/lab4/tb_lab4dpath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_lab4dpath

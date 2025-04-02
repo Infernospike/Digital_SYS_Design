@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_satadd_time_impl.v" \
+
+sv xil_defaultlib  \
+"../../../../../../tb_satadd.sv" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2/lab7_part2.sim/sim_1/impl/timing/xsim/tb_timer32bus_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer32
+INFO: [VRFC 10-311] analyzing module timer32__hierPathDup__1
+INFO: [VRFC 10-311] analyzing module timer32bus
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/coope/Documents/MSU-ECE-DSD/lab7/lab7_part2/lab7_part2.srcs/sim_1/imports/lab7_p2_files/tb_timer32bus.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_timer32bus

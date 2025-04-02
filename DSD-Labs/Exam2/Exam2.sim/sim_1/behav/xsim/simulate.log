@@ -1,0 +1,68 @@
+Time resolution is 1 ps
+Test  0.   1 PASS:
+contestant_buttons =  0, timer_start = 0, reset = 1
+  Initial reset.
+  expected: contestant_lights =  x, timeout = x
+  actual:   contestant_lights =  0, timeout = 0
+Test  1.   1 PASS:
+contestant_buttons =  0, timer_start = 0, reset = 0
+  Waiting for the timer to start.
+  expected: contestant_lights =  0, timeout = 0
+  actual:   contestant_lights =  0, timeout = 0
+Test  2.   1 PASS:
+contestant_buttons =  0, timer_start = 1, reset = 0
+  Timer started.
+  expected: contestant_lights =  0, timeout = 0
+  actual:   contestant_lights =  0, timeout = 0
+Test  3.   1 PASS:
+contestant_buttons =  0, timer_start = 0, reset = 0
+  Waiting for contestant.
+  expected: contestant_lights =  0, timeout = 0
+  actual:   contestant_lights =  0, timeout = 0
+Test  4.   1 PASS:
+contestant_buttons =  4, timer_start = 0, reset = 0
+  Contestant answers.
+  expected: contestant_lights =  4, timeout = 0
+  actual:   contestant_lights =  4, timeout = 0
+Test  5.   1 PASS:
+contestant_buttons = 10, timer_start = 0, reset = 0
+  More contestants answer.
+  expected: contestant_lights =  4, timeout = 0
+  actual:   contestant_lights =  4, timeout = 0
+Test  6.   1 PASS:
+contestant_buttons =  0, timer_start = 0, reset = 0
+  No timeout.
+  expected: contestant_lights =  4, timeout = 0
+  actual:   contestant_lights =  4, timeout = 0
+Test  7.   1 PASS:
+contestant_buttons =  0, timer_start = 0, reset = 1
+  Reset.
+  expected: contestant_lights =  x, timeout = x
+  actual:   contestant_lights =  0, timeout = 0
+Test  8.   1 PASS:
+contestant_buttons =  0, timer_start = 0, reset = 0
+  Waiting for the timer to start.
+  expected: contestant_lights =  0, timeout = 0
+  actual:   contestant_lights =  0, timeout = 0
+Test  9.   1 PASS:
+contestant_buttons =  0, timer_start = 1, reset = 0
+  Timer started.
+  expected: contestant_lights =  0, timeout = 0
+  actual:   contestant_lights =  0, timeout = 0
+Test 10.   1 PASS:
+contestant_buttons =  0, timer_start = 0, reset = 0
+  Waiting for contestant.
+  expected: contestant_lights =  0, timeout = 0
+  actual:   contestant_lights =  0, timeout = 0
+Test 11.   1 FAIL:
+contestant_buttons =  0, timer_start = 0, reset = 0
+  Timeout.
+  expected: contestant_lights =  0, timeout = 1
+  actual:   contestant_lights =  0, timeout = 0
+Test 12.   1 PASS:
+contestant_buttons = 15, timer_start = 0, reset = 0
+  Contestant buttons ignored.
+  expected: contestant_lights =  0, timeout = 1
+  actual:   contestant_lights =  0, timeout = 1
+FAIL: 1 errors occurred.
+$finish called at time : 202740 ns : File "C:/Users/coope/Documents/MSU-ECE-DSD/Exam2/Exam2.srcs/sim_1/imports/digital-system-design-A421/spring_exam_2_problem_2-test.sv" Line 117
